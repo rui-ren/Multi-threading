@@ -31,3 +31,9 @@ int main()
 
   return 0;
 }
+
+
+
+g++ Pthread.
+passing argument to thread.
+thread synchronization.
