@@ -37,3 +37,25 @@ int main()
 g++ Pthread.
 passing argument to thread.
 thread synchronization.
+
+#include<iostream>
+  
+  use namespace std;
+  void* My_Thread(void* ptr)
+  {
+      pthread_exit(NULL);
+  }
+
+int main()
+{
+    pthread_t t[N];
+    // create;
+    for(int i = 1; i < N; i++)
+    pthread_create(, , My_Thread, )
+    //run
+    
+    //termination
+
+
+}
+
